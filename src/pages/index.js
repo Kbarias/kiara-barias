@@ -2,13 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import pic3 from '../assets/images/new-york.jpg';
+import pic4 from '../assets/images/agora-landingpage.png';
+import pic5 from '../assets/images/real-estate.png';
+import pic6 from '../assets/images/white-no_circle.png';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -16,7 +14,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <img className='icon' src={pic6}/>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -27,20 +25,16 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic1} alt="" />
+            <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">About Me</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              I am a Software Engineer from Brooklyn, New York. I studied
+              Computer Science at CUNY Hunter College. I enjoy working on web
+              development projects that include websites and web applications
+              as a full stack engineer.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
           </div>
         </div>
       </section>
@@ -48,65 +42,85 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">My Skills</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              I have used various programming languages for my personal and work projects. These are some of my skills that I am able to use to bring products to life.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+						<div className="row">
+							<div className="col-6 col-12-medium">
+								<ul>
+									<li>JAVASCRIPT</li>
+                  <li>REACT</li>
+									<li>HTML</li>
+									<li>CSS</li>
+								</ul>
+							</div>
+							<div className="col-6 col-12-medium">
+								<ul>
+									<li>C++</li>
+									<li>PYTHON</li>
+									<li>NODE</li>
+                  <li>MONGODB</li>
+								</ul>
+							</div>
+						</div>
           </div>
         </div>
       </section>
 
-      <section id="three" className="wrapper spotlight style3">
+      <section id="three" className="wrapper alt style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Experience</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Before becomming a Software Engineer, I had earned my Redcross Lifeguarding
+              and Water Safety Instructor certifications as I enjoy staying active on top of my love for coding.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+						<div className="table-wrapper">
+							<table>
+								<tbody>
+									<tr>
+										<td><b>Junior Engineer</b> | Nanov Display Inc.</td>
+										<td></td>
+										<td>Present</td>
+									</tr>
+									<tr>
+                    <td><b>Technology Intern</b> | JP Morgan Chase and Co.</td>
+										<td></td>
+										<td>2019</td>
+									</tr>
+									<tr>
+                    <td><b>Water Safety Instructor and Lifeguard</b> | 14th Street Y</td>
+										<td></td>
+										<td>2014 - 2019</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
           </div>
         </div>
       </section>
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Some of My Projects</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            You can view some of my projects that I have created below.
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Agora</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                A web application for college students looking to utilize their
+                old education resources and to create study groups.
               </p>
-              <a href="/#" className="special">
+              <a href="/https://the-agora-project.herokuapp.com/" className="special">
                 Learn more
               </a>
             </article>
@@ -114,36 +128,10 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Real Estate Website</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                A website for real estate company looking to assist in purchasing
+                the perfect property.
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -152,7 +140,7 @@ const IndexPage = () => (
           </section>
           <ul className="actions">
             <li>
-              <a href="/#" className="button">
+              <a href="/https://github.com/Kbarias?tab=repositories" className="button">
                 Browse All
               </a>
             </li>

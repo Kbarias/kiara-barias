@@ -40,16 +40,16 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter solidstate', // <title>
+  siteTitle: 'Kiara Barias', // <title>
   ...
-  heading: 'Anubhav',
+  heading: 'Kiara',
   subHeading: 'Web Developer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/kbarias',
     }
     ...
   ],

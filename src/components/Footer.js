@@ -6,10 +6,7 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Get in touch</h2>
         <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+          If you would like to work together or have any questions, please reach out to me below.
         </p>
         <form method="post" action="/#">
           <div className="fields">
@@ -47,9 +44,9 @@ export default function Footer() {
           })}
         </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
+          <li>&copy; Kiara Barias. All rights reserved.</li>
           <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
+            Design: <a href="https://anubhavsrivastava.github.io/gatsby-starter-solidstate/">Anubhav Srivastava</a>
           </li>
         </ul>
       </div>
