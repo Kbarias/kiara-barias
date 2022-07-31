@@ -140,7 +140,7 @@ const IndexPage = () => (
           </section>
           <ul className="actions">
             <li>
-              <a href="/https://github.com/Kbarias?tab=repositories" className="button">
+              <a href="https://github.com/Kbarias" className="button">
                 Browse All
               </a>
             </li>
