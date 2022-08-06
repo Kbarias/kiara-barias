@@ -141,7 +141,7 @@ const IndexPage = () => (
           <ul className="actions">
             <li>
               <a href="https://github.com/Kbarias" className="button">
-                Browse All
+                Browse Others
               </a>
             </li>
           </ul>
